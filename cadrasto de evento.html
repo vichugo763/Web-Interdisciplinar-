@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Evento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="top-left">
+      <span class="icon">🏠</span>
+      <span class="text">Home</span>
+    </div>
+    <div class="top-right">
+      <span class="icon">👤</span>
+      <span class="text">Perfil</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="title">Cadastro de Evento</h1>
+
+    <form class="form">
+      <label for="nome">Nome do Evento</label>
+      <input type="text" id="nome" name="nome" class="input">
+
+      <label for="local">Local do Evento</label>
+      <input type="text" id="local" name="local" class="input">
+
+      <label for="residuos">Resíduos</label>
+      <select id="residuos" name="residuos" class="input">
+        <option value="plastico">Plástico</option>
+        <option value="vidro">Vidro</option>
+        <option value="papel">Papel</option>
+        <option value="metal">Metal</option>
+      </select>
+
+      <button type="submit" class="menu-item" style="width: fit-content; margin: 30px auto 0;">
+        <strong>Salvar</strong>
+      </button>
+    </form>
+  </main>
+</body>
+</html>
